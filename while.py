@@ -33,15 +33,26 @@
     
     
     
-adlar = ['orkhan','eli','veli','salman','muxtar']
+# adlar = ['orkhan','eli','veli','salman','muxtar']
+# index = 0
+# yadda = ''
+# while len(adlar) > index:
+#     if index != len(adlar)-1:
+#         yadda = adlar[index]
+#         adlar[index] = adlar[index+1]
+#         adlar[index+1] = yadda
+#     index+=1
+    
+# print(adlar)
+    
+    
+name = 'abrakadabra'
+name2 = name
 index = 0
-yadda = ''
-while len(adlar) > index:
-    if index != len(adlar)-1:
-        yadda = adlar[index]
-        adlar[index] = adlar[index+1]
-        adlar[index+1] = yadda
-    index+=1
+
+while len(name) > index:
+    if name[index] =='a':
+        name2 = name2[:index] + "+" + name2[index+1:]
+    index +=1
     
-print(adlar)
-    
+print(name2)
