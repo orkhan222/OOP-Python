@@ -46,13 +46,28 @@
 # print(adlar)
     
     
-name = 'abrakadabra'
-name2 = name
-index = 0
+# name = 'abrakadabra'
+# name2 = name
+# index = 0
 
-while len(name) > index:
-    if name[index] =='a':
-        name2 = name2[:index] + "+" + name2[index+1:]
-    index +=1
+# while len(name) > index:
+#     if name[index] =='a':
+#         name2 = name2[:index] + "+" + name2[index+1:]
+#     index +=1
     
-print(name2)
+# print(name2)
+
+
+nums = 23556
+test = True
+
+while nums > 0:
+    if (nums%10)%2 !=0:
+        test = False
+        break
+    nums//=10
+    
+if test:
+    print('yes')
+else:
+    print('no')
