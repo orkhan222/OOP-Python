@@ -58,16 +58,28 @@
 # print(name2)
 
 
-nums = 23556
-test = True
+# nums = 23556
+# test = True
 
-while nums > 0:
-    if (nums%10)%2 !=0:
-        test = False
-        break
-    nums//=10
+# while nums > 0:
+#     if (nums%10)%2 !=0:
+#         test = False
+#         break
+#     nums//=10
     
-if test:
-    print('yes')
-else:
-    print('no')
+# if test:
+#     print('yes')
+# else:
+#     print('no')
+
+num1 = int(input('num1: '))
+
+new = []
+
+while num1 > 0:
+    new.append(input('reqem: '))
+    num1 +=1
+
+
+print(new)
+    
