@@ -73,13 +73,10 @@
 #     print('no')
 
 num1 = int(input('num1: '))
-
-new = []
-
+num2 = 0    
 while num1 > 0:
-    new.append(input('reqem: '))
-    num1 +=1
-
-
-print(new)
+    num3 = int(input('reqem: '))
+    num2 = num2*10+num3
+    num1 -=1
     
+print(num2 )
