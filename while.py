@@ -72,11 +72,23 @@
 # else:
 #     print('no')
 
-num1 = int(input('num1: '))
-num2 = 0    
-while num1 > 0:
-    num3 = int(input('reqem: '))
-    num2 = num2*10+num3
-    num1 -=1
+# num1 = int(input('num1: '))
+# num2 = 0    
+# while num1 > 0:
+#     num3 = int(input('reqem: '))
+#     num2 = num2*10+num3
+#     num1 -=1
     
-print(num2 )
+# print(num2 )
+
+nums = [[2,3,4],[5,3,4]]
+index = 0
+
+while len(nums) > index:
+    index2 = 0
+    while len(nums[index]) > index2:
+        print(nums[index][index2]*nums[index][index2])
+        index2 +=1
+    print()
+    index +=1
+    
