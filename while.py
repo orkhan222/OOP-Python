@@ -81,14 +81,24 @@
     
 # print(num2 )
 
-nums = [[2,3,4],[5,3,4]]
-index = 0
+# nums = [[2,3,4],[5,3,4]]
+# index = 0
 
-while len(nums) > index:
-    index2 = 0
-    while len(nums[index]) > index2:
-        print(nums[index][index2]*nums[index][index2])
-        index2 +=1
-    print()
-    index +=1
+# while len(nums) > index:
+#     index2 = 0
+#     while len(nums[index]) > index2:
+#         print(nums[index][index2]*nums[index][index2])
+#         index2 +=1
+#     print()
+#     index +=1
     
+    
+num1, num2 = map(int, input('num1: ').split())
+
+while num1 > 0:
+    num3 = num2
+    while num3 > 0:
+        print('*', end='')
+        num3 -= 1
+    print()
+    num1 -= 1    
