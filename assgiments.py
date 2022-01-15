@@ -107,9 +107,14 @@
 # print(a)
 
 
-def fun():
-    x = 100
-    print(x)
+# def fun():
+#     x = 100
+#     print(x)
 
-x=+1
-fun()
+# x=+1
+# fun()
+
+b = 30
+def fun(a,b=b):
+    return a+b
+print(fun(1))
