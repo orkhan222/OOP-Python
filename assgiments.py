@@ -120,16 +120,30 @@
 # print(fun(1))
 
 
-def jump(self, A):
-    l = len(A)
-    count = 0
-    pos = 0
-    for i in range(1,1):
-        A[i] = max(i + A[i], A[i-1])
-    while(pos < l-1):
-        if (pos >= A[pos]):
-            return -1
-        if (pos < A[pos]):
-            count +=1
-            pos = A[pos]
-        return count
+# def jump(self, A):
+#     l = len(A)
+#     count = 0
+#     pos = 0
+#     for i in range(1,1):
+#         A[i] = max(i + A[i], A[i-1])
+#     while(pos < l-1):
+#         if (pos >= A[pos]):
+#             return -1
+#         if (pos < A[pos]):
+#             count +=1
+#             pos = A[pos]
+#         return count
+
+
+
+
+def find_max(nums):
+    max_num = float("-inf") # smaller than all other numbers
+    for num in nums:
+        if num > max_num:
+            # (Fill in the missing line here)
+            max_num = num
+    return max_num
+
+nums = (3,2,1)
+print (find_max(nums))
