@@ -148,6 +148,11 @@
 # nums = (3,2,1)
 # print (find_max(nums))
 
-def x():
-    pass
-print(type(x()))
+# def x():
+#     pass
+# print(type(x()))
+
+def unpack(p,q,r,s):
+    print(p+s)
+a=[1,2,3,4]
+unpack(a)
