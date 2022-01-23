@@ -152,7 +152,13 @@
 #     pass
 # print(type(x()))
 
-def unpack(p,q,r,s):
-    print(p+s)
-a=[1,2,3,4]
-unpack(a)
+# def unpack(p,q,r,s):
+#     print(p+s)
+# a=[1,2,3,4] 
+# unpack(a)
+
+
+def x(i, values=[]):
+    return values.append(i)
+print(x(2))
+    
