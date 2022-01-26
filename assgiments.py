@@ -163,6 +163,11 @@
 # print(x(2))
     
     
-x= ['python', 'hub']
-x.sort(key=len)
+# x= ['python', 'hub']
+# x.sort(key=len)
+# print(x)
+
+
+x= {2,3,4}
+x.intersection_update({3,4,5})
 print(x)
