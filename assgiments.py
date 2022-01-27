@@ -168,6 +168,10 @@
 # print(x)
 
 
-x= {2,3,4}
-x.intersection_update({3,4,5})
-print(x)
+# x= {2,3,4}
+# x.intersection_update({3,4,5})
+# print(x)
+
+
+my_dict = {1:1, 1:2, 1:3}
+print(my_dict)
